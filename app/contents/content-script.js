@@ -1,4 +1,4 @@
-chrome.runtime.sendMessage({todo: "showActiveIcon"});
+// chrome.runtime.sendMessage({todo: "showActiveIcon"});
 
 var current_url = window.location.href;
 var table = '';
