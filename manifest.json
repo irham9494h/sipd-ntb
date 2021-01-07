@@ -17,7 +17,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://ntbprov.sipd.kemendagri.go.id/*"
+        "https://ntbprov.sipd.kemendagri.go.id/*",
+        "https://sipd.kemendagri.go.id/*"
       ],
       "css": [
         "app/css/print.css"
@@ -25,7 +26,8 @@
       "js": [
         "app/js/jquery-3.5.1.min.js",
         "app/contents/content-script.js",
-        "app/contents/apbd.js"
+        "app/contents/apbd.js",
+        "app/contents/dpa-skpd.js"
       ]
     }
   ],
@@ -40,6 +42,7 @@
   "permissions": [
     "tabs",
     "https://ntbprov.sipd.kemendagri.go.id/*",
+    "https://sipd.kemendagri.go.id/*",
     "storage",
     "activeTab"
   ]
