@@ -32,11 +32,6 @@ if (current_url.indexOf('lampiran') != -1 && current_url.indexOf('apbd') != -1) 
     
 }
 
-window.onbeforeprint = function() {
-    console.log('This will be called before the user prints.');
-};
-
-
 var option={
     host:"ntbprov.sipd.kemendagri.go.id",
     path:"daerah/main/budget/skpd/2021/list/407/0",
