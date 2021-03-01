@@ -7,13 +7,18 @@ if(current_url.indexOf('rinci/cetak') != -1){
     function (object) {
         tableTr.first().text("Mataram, tanggal "+object.tanggalTtd)
         
-        if(object.jabatanKadis !== '' || object.namaKadis !== '' || object.nipKadis !== ''){
+        if(object.jabatanKadis !== ''){
             tableTr.eq(1).text()
-            tableTr.eq(2).text()
-            tableTr.last().text()
-            
             tableTr.eq(1).text(object.jabatanKadis)
+        }
+        
+        if(object.namaKadis !== ''){
+            tableTr.eq(2).text()
             tableTr.eq(2).text(object.namaKadis)
+        } 
+        
+        if(object.nipKadis !== ''){
+            tableTr.last().text()
             tableTr.last().text("NIP. "+object.nipKadis)
         }
         
