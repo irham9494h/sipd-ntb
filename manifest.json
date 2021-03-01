@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SIPD NTB",
-  "version": "1.0",
+  "version": "1.0.5",
   "description": "Ekstensi penunjang aplikasi SIPD yang dikembangkan oleh BPKAD Provinsi Nusa Tenggara Barat",
   "icons": {
     "16": "images/icon_16.png",
