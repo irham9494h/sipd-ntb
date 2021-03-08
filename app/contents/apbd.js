@@ -17,7 +17,7 @@ if (current_url.indexOf('lampiran') != -1 && current_url.indexOf('apbd') != -1) 
         '<tbody>' +
         '<tr><td colspan="3" height="20">&nbsp;</td></tr>' +
         '<tr><td colspan="3" class="text_tengah">Mataram, <span id="tgl-ttg-perda">' + object.tanggalTtd + '</span> </td></tr>' +
-        '<tr><td colspan="3" class="text_tengah"><strong>GUBERNUR PROVINSI NUSA TENGGARA BARAT</strong></td></tr>' +
+        '<tr><td colspan="3" class="text_tengah"><strong>GUBERNUR NUSA TENGGARA BARAT</strong></td></tr>' +
         '<tr><td colspan="3" height="60">&nbsp;</td></tr>' +
         '<tr><td colspan="3" class="text_tengah" style=" text-align: center;"><strong>' + namaGubernur + '</strong></td></tr>' +
         '</tbody>' +
