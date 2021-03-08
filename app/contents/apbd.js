@@ -4,6 +4,8 @@ table = $('.cetak');
 if (current_url.indexOf('lampiran') != -1 && current_url.indexOf('apbd') != -1) {
     // APBD Lampiran 1 s/d 16
     var tableHeader = $('table[width="280px"]').parent().find('tr td.text_kiri').last();
+
+    $('table[width="25%"]').hide();
     
     chrome.storage.sync.get(['tanggalTtd'], function (object) {
         
